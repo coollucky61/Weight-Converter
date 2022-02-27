@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <h1><u>Weight Convertor</u></h1>
+       <hr>
+    </div>
+    <div id="userInput">
+        <h3>Pounds</h3>
+        <input id="poundInput" class="input" type="number" oninput="weightKgConverter(this.value)" 
+        onchange="weightKgConverter(this.value)">
+        <h3>Kilogram</h3>
+        <input id="kilogramInput" class="input" type="number">
+        <h3>Ounce</h3>
+        <input id="ounceInput" class="input" type="number">
+        <h3>Grams</h3>
+        <input id="gramsInput" class="input" type="number">
+        <h3>Stones</h3>
+        <input id="stonesInput" class="input" type="number">
+    </div>
+    <hr>
+    <h3><u>Instructions to use:</u></h5>
+    <br>
+    <p>
+        In order to use this conversion tool, please enter value in pounds and rest of the units will be automatically calculated.
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
